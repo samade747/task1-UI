@@ -1,0 +1,1291 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p , h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+
+/* ////////////////  top-bar   ///////////////*/
+
+.top-bar-main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(32, 32, 32);
+    height: 3rem; 
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+    height: 100%;
+    width: 95%;
+}
+
+/* top bar location */
+#loaction-img {
+    width:12px;
+    height:18px; 
+    margin-top: 18px; 
+    margin-right: 3px;
+}
+
+/* top bar call */
+#call-img {
+    width:12px; 
+    height:13px;
+    margin-right: 3px;
+    margin-top: 19px;
+}
+
+/* top bar email img */
+#email-img {
+    width:15px;
+    height:10px;
+    margin-top: 20px; 
+    margin-right: 3px
+}
+
+/* top-bar-text */
+.top-bar-text {
+    margin-top: 15px !important;
+}
+
+/* ////////////////////   top bar end   ////////////// */
+
+
+
+/* ////////////////////     nav bar       ////////////// */
+
+/* ////////////////////   nav bar end   ////////////// */
+
+
+
+/*/////////////////////    home    //////////////// */
+.home-container {
+    position: relative !important;
+}
+
+.black-layer-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.home-inner {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    position: absolute;
+}
+
+
+
+
+.home-btn1 {
+    background-color: white;
+    border-color: white;
+    color: black;
+    width: 9rem;
+    border-radius: 0;
+    margin-right: 1%;
+}
+
+.home-btn1:hover {
+    border-color: white !important;
+    background-color: transparent !important;
+    color: white !important;
+
+
+}
+
+.home-btn2 {
+    color: black;
+    width: 9rem;
+    border-radius: 0;
+    color: white;
+}
+
+.home-btn2:hover {
+    color: black !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    border-color: rgb(255, 213, 0) !important;
+    color: rgb(255, 221, 53)  !important;
+}
+
+/*/////////////////////    home end    //////////////// */
+
+
+/* ///////////////   about    ////////////////// */
+
+.about-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.about {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+#about-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 1px 1px;
+}
+
+.about-card {
+    border: 2px solid white;
+    max-width: 32rem;
+    /* height: 40%; */
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 5%;
+    box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 2px 16px 0px rgba(0,0,0,0.32);
+}
+
+.img-div {
+    border: 0px !important;
+    border-radius: 5px 5px 1px 1px;
+
+}
+
+/* /////////////////  about end  ///////////// */
+
+
+/* ////////////////  our services  ////////////////// */
+.our-services-container {
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(34, 34, 34) ;
+}
+
+#our-services-h1 {
+    /* border: 2px solid red; */
+    color: white;
+    font-weight: bold;
+    font-size: xx-large !important;
+    text-align: center;
+    margin-top: 3%;
+}
+.our-services {
+    /* border: 2px solid red; */
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.services-card-img {
+    /* border:  2px solid red; */
+    width: 80px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px;
+
+
+}
+.services-card-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.services-card-p {
+    text-align: center;
+}
+.services-card-btn {
+    width: 9rem !important;
+    height:  2.5rem !important;
+}
+.my-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/* ////////////// our services end  ////////////////// */
+
+/* ////////////// reviews  ////////////////// */
+
+.reviews-container {
+    /* border: 2px solid red   ; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5% !important;
+
+}
+
+.reviews {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews-heading {
+    /* border: 2px solid red; */
+    text-align: center;
+    color: black;
+    font-size: xx-large !important;
+    font-weight: bolder !important;
+    margin-bottom: 12% !important;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews-img {
+    width: 9rem;
+    margin-bottom: 1%;
+}
+
+#reviews-client-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 2%;
+}
+
+#reviews-p {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 75%;
+}
+
+.reviews-btn-container {
+    /* border: 2px solid red !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.reviews-btn-container button {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.reviews-btn {
+    width: fit-content !important;
+    padding: 8px 20px 8px 20px!important;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    color: white !important;
+    font-weight: bolder !important;
+    font-size: larger;
+} 
+
+.reviews-btn:hover {
+    background-color:  rgb(255, 213, 0);
+}
+
+
+
+/* ////////////// reviews end  ////////////////// */
+
+
+
+/* ////////////// contat-me ////////////////// */
+
+.contact-me-container {
+    background-image: url(./images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.black-layer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-me {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#contact-me-heading {
+    /* border: 2px solid red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem !important;
+    margin-bottom: 8%;
+}
+
+.contact-me-input {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-input input,textarea,button {
+    width: 50%;
+    height: 2.8rem;
+    margin-bottom: 1rem;
+    border: none !important;
+}
+
+#contact-me-message {
+    width: 50%;
+    height: 8rem;
+}
+
+.contact-me-input input::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+.contact-me-input textarea::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+.contact-me-btn {
+    width: 10.5rem !important;
+    height: 2.8rem !important;
+
+}
+
+
+/* ////////////// contat-me end  ////////////////// */
+
+
+
+/* ////////////// our guard  ////////////////// */
+
+.our-guards-container {
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.our-guards-container div,h1,p {
+    margin-bottom: 1rem;
+}
+
+
+
+.our-guards {
+    border: 2px solid red;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-guards-h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold !important;
+    font-size: 2.5rem !important;
+    margin-top: 5% !important;
+
+}
+
+#our-guards-p {
+    width: 75%;
+    text-align: center !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500 !important;
+    font-size: medium !important;
+}
+
+.our-guards-pic-container {
+    width: 100% !important;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+
+
+}
+.our-guards-pic {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+.our-guards-pic img {
+    width: 110%;
+    height: 90%;
+
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 110%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* ////////////// our guard end  ////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////    responsive     /////////////////////*/
+
+
+@media (min-width:1441px) {
+
+    /* /////////////////   custom styling    ///////////// */
+
+    h1 {
+        font-size: 3.5rem !important;
+    }
+    p {
+        font-size: large !important;
+    }
+
+    /* /////////////////   custom styling end   ///////////// */
+
+
+    /*///////////////////    top bar     //////////////////*/
+    #email-img {
+        width: 19px !important;
+        height:  17px !important;
+    }
+    #call-img {
+        width: 19px !important;
+        height:  17px !important;
+    }
+    #loaction-img {
+        width: 15px !important;
+        height:  19px !important;
+    }
+
+    /*///////////////////  top bar end   //////////////////*/
+
+
+    /*///////////////////     home      //////////////////*/
+
+    .home-btn1 {
+        height: 2.5rem;
+        width: 10rem;
+    }
+    .home-btn2 {
+        height: 2.5rem;
+        width: 10rem;
+    }
+
+    /*///////////////////   home end   //////////////////*/
+
+
+    /*///////////////////  about  //////////////////*/
+    
+    .about-card {
+        width: 1000px !important;
+    }
+    .about-card p {
+        font-size: large !important;
+    }
+    .about-card h1 {
+        font-size: 70px !important;
+    }
+
+    /*///////////////////   about end   //////////////////*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+
+    /*//////////////////   top bar    ////////////////////*/
+
+    .top-bar-main {
+       height: 45px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top-bar-text {
+        font-size: medium; 
+    }
+
+    #location-img {
+        width: 100px !important;
+    }
+
+    #email-img {
+        width: 18px;
+        height: 15px;
+    }
+
+    /*//////////////////   top bar end    ////////////////////*/
+
+
+    /*//////////////////   home   ////////////////////*/
+
+    .home-content h1 {
+        font-size: 3.2rem !important;
+    }
+    .home-btn1 {
+        width: 30%;
+        height: 3rem!important;
+
+    }
+    .home-btn2 {
+        width: 30%;
+        height: 3rem!important;
+
+    }
+
+    /*//////////////////    home end    ////////////////////*/
+
+
+
+    /*//////////////////    about    ////////////////////*/
+
+    .about-card { 
+        width: 500rem !important;
+        height: 16rem !important;
+    }
+    .about-card-btn {
+        width: 10rem !important;
+        height: 2.8rem !important; 
+    }
+    .img-div {
+        height: 58% !important;
+        width: 58% !important;
+    }
+
+    /*//////////////////    about end    ////////////////////*/
+
+    /*//////////////////    our services    ////////////////////*/
+    .services-card {
+        width:20rem  !important;
+        height:20rem !important;
+    }
+    .services-card-btn {
+        width: 10rem !important;
+        height: 2.5rem !important;
+    }
+    /*//////////////////    our services end    ////////////////////*/
+    
+}
+
+
+
+@media (min-width:977px) and (max-width:1024px) {
+
+    /*////////////////   top bar   //////////////////// */
+    
+    #loaction-img {
+        margin-top: 8.5% !important;
+    }
+     
+    /*////////////////   top bar end   //////////////////// */
+
+
+
+    /*///////////////   about   /////////////////*/
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important  ;
+        margin-top: 200px !important;
+    }
+    .img-div {
+        width: 32rem !important;
+        height: 40% !important;
+    }
+    .about-card {
+        margin-left: 0px !important;
+        position: relative;
+        margin-top: 0 !important;
+        width: 80% !important;
+    }
+    .about-card p {
+        font-size: x-large;
+    }
+    .about-card h5 {
+        font-size: xx-large;
+    }
+    .about-card-btn {
+        height: 3rem !important;
+        width: 11rem !important;
+    }
+
+    /*///////////////  about end  /////////////////*/
+
+
+    /*//////////////////    our services    ////////////////////*/
+
+    .our-services-container {
+        margin-top: 22%;
+        height: 30rem !important;
+    }
+    .services-card {
+        width:18rem  !important;
+        height:21rem !important;
+    }
+    .services-card-btn {
+        width: 9rem !important;
+        height: 2.5rem !important;
+    }
+
+    /*//////////////////    our services end    ////////////////////*/
+
+
+
+
+    /*//////////////////    contact-me   ////////////////////*/
+
+        .contact-me-input input {
+            width: 100% !important;
+        }
+        .contact-me-input textarea {
+            width: 100% !important;
+        }
+        
+    /*//////////////////    contact-me end    ////////////////////*/
+
+
+    
+}
+
+
+
+@media (min-width:768px) and (max-width:976px) {
+
+        /*////////////////   top bar   //////////////////// */
+    
+        #loaction-img {
+            margin-top: 8.5% !important;
+        }
+    
+        /*////////////////   top bar end   //////////////////// */
+
+
+    /* ///////////////////  about    ///////////////*/
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important  ;
+        margin-top: 200px !important;
+    }
+    .img-div {
+        width: 83% !important;
+        height: 100% !important;
+    }
+    .about-img {
+        width: 50% !important;
+    }
+    .about-card {
+        margin-left: 0px !important;
+        position: relative;
+        margin-top: 0 !important;
+    }
+    .about-card p {
+        font-size: x-large;
+    }
+    .about-card h5 {
+        font-size: xx-large;
+    }
+    .about-card-btn {
+        height: 3rem !important;
+        width: 11rem !important;
+    }
+
+    /* ///////////////////   about end    ///////////////*/
+
+
+        /*//////////////////    our services    ////////////////////*/
+        .our-services-container {
+            margin-top: 22%;
+            height: 33rem !important;
+        }
+        .services-card {
+            width:15rem  !important;
+            height:23rem !important;
+        }
+        .services-card-btn {
+            width: 9rem !important;
+            height: 2.5rem !important;
+        }
+
+        /*//////////////////    our services end    ////////////////////*/
+
+
+            /*//////////////////    contact-me   ////////////////////*/
+
+            .contact-me-input input {
+                width: 100% !important;
+            }
+            .contact-me-input textarea {
+                width: 100% !important;
+            }
+            
+        /*//////////////////    contact-me end    ////////////////////*/
+
+    
+}
+   
+
+
+@media (min-width:576px) and (max-width:768px) {
+
+        /*////////////////   top bar   //////////////////// */
+    
+        #loaction-img {
+            margin-top: 8.5% !important;
+        }
+    
+        /*////////////////   top bar end   //////////////////// */
+
+      /*//////////////////   about   //////////////////*/
+      .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px !important;
+        flex-direction: column !important  ;
+    }
+    .img-div {
+        width: 32rem !important;
+        height: 40% !important;
+    }
+    .about-card {
+        margin-left: 0px !important;
+        position: relative;
+        margin-top: 0 !important;
+
+        height: 27rem !important; 
+        /* width: 30rem !important; */
+    }
+    .about-card p {
+        font-size: x-large;
+    }
+    .about-card h5 {
+        font-size: xx-large;
+    }
+    .about-card-btn {
+        height: 3rem !important;
+        width: 11rem !important;
+    }
+
+    /*//////////////////   about end   //////////////////*/
+
+    /*//////////////////    our services    ////////////////////*/
+
+    .our-services-container {
+        margin-top: 35%;
+        height: 70rem !important;
+    }
+    .our-services {
+        /* border: 2px solid red; */
+        padding: 0px;
+        height: 90%;
+        display: inline-block !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: space-between !important;
+
+    }
+    .services-card {
+        width:25rem  !important;
+        height:19rem !important;
+    }
+    .services-card-btn {
+        width: 9rem !important;
+        height: 2.5rem !important;
+    }
+    
+    /*//////////////////    our services end    ////////////////////*/
+
+
+        /*//////////////////    contact-me   ////////////////////*/
+
+        .contact-me-input input {
+            width: 100% !important;
+        }
+        .contact-me-input textarea {
+            width: 100% !important;
+        }
+        
+    /*//////////////////    contact-me end    ////////////////////*/
+
+ 
+   
+}
+
+
+
+@media (min-width:425px) and (max-width:576px) {
+
+        /*//////////////////   top-bar    ///////////////////*/
+
+        .top-bar-text {
+            display: none;
+        }
+        
+        /* location-img */
+        #loaction-img {
+            margin-top: 0px;
+            width: 18px;
+            height: 22px;
+        }
+    
+        /* call-img */
+        #call-img {
+            margin-top: 0px;
+            width: 18px;
+            height: 18px;
+        }
+    
+        /* email-img */
+        #email-img {
+            margin-top: 0px;
+            width: 20px;
+            height: 17px;
+        }
+        /*//////////////////   top-bar end    ///////////////////*/
+
+
+
+
+
+        /*//////////////////   about    ///////////////////*/
+
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column !important  ;
+        }
+        .img-div {
+            width: 32rem !important;
+            height: 40% !important;
+        }
+        .about-card {
+            margin-left: 0px !important;
+        margin-top: 0 !important;
+
+            position: relative;
+            /* height: 27rem !important;  */
+            width: 30rem !important;
+        }
+        .about-card p {
+            font-size: x-large;
+        }
+        .about-card h5 {
+            font-size: xx-large;
+        }
+        .about-card-btn {
+            height: 3rem !important;
+            width: 11rem !important;
+        }
+
+        /*//////////////////   about end    ///////////////////*/
+
+
+        /*//////////////////    our services    ////////////////////*/
+    
+    .our-services-container {
+                margin-top: 35%;
+                height: 70rem !important;
+    }
+    .our-services {
+                /* border: 2px solid red; */
+                padding: 0px;
+                height: 90%;
+                display: inline-block !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: space-between !important;
+
+    }
+    .services-card {
+        width:25rem  !important;
+        height:19rem !important;
+    }
+
+            .services-card-btn {
+                width: 9rem !important;
+                height: 2.5rem !important;
+    }
+    
+        /*//////////////////    our services end    ////////////////////*/
+
+
+            /*//////////////////    contact-me   ////////////////////*/
+
+            .contact-me-input input {
+                width: 100% !important;
+            }
+            .contact-me-input textarea {
+                width: 100% !important;
+            }
+            
+        /*//////////////////    contact-me end    ////////////////////*/
+
+}
+
+
+
+@media (max-width:425px) {
+
+
+
+    /*////////////////////    about    ///////////////////////*/
+    .about-container {
+        margin-top: -30% !important;
+    }
+
+    .about-card p {
+        font-size: small !important;
+    }
+    .about {
+        margin-top: 0 !important;
+    }
+    .about-btn {
+        width: 500rem !important;
+    }
+
+
+    /*////////////////////    about end    ///////////////////////*/
+
+
+    /*////////////////////    our services    ///////////////////////*/
+
+    
+    .our-services-container {
+        margin-top: 35%;
+        height: 75rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .our-services-h1 {
+        margin-bottom: -50px !important;
+    }
+
+    .our-services {
+        /* border: 2px solid red; */
+        padding: 0px;
+        height: 90%;
+        display: inline-block !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: space-between !important;
+
+    }
+    .services-card {
+        width:16rem  !important;
+        height:22rem !important;
+    }
+            .services-card-btn {
+                width: 9rem !important;
+                height: 2.5rem !important;
+    }
+    
+        /*//////////////////    our services end    ////////////////////*/
+
+        /*//////////////////    reviews    ////////////////////*/
+
+        #reviews-heading {
+            font-size: x-large !important ;
+            margin-bottom: 6% !important;
+        }
+
+        .reviews-container {
+            margin-top: 15% !important;
+        }
+      
+
+        /*//////////////////    reviews end   ////////////////////*/
+
+
+            /*//////////////////    contact-me   ////////////////////*/
+            .contact-me-container {
+                margin-top: 7% !important;
+            }
+
+            .contact-me-input input {
+                width: 100% !important;
+            }
+            .contact-me-input textarea {
+                width: 100% !important;
+            }
+            #contact-me-heading  {
+                font-size: xx-large !important;
+            }
+            
+        /*//////////////////    contact-me end    ////////////////////*/
+
+    
+
+}
+
+
+
+
+
+
+
+/*////////////////////    extra responsive    ////////////////*/
+
+
+@media (max-width:600px) {
+
+        /*//////////////////   top bar   ///////////////////*/
+
+        .top-bar-text {
+            display: none;
+        }
+        
+        /* location-img */
+        #loaction-img {
+            margin-top: 0px;
+            width: 18px;
+            height: 22px;
+        }
+    
+        /* call-img */
+        #call-img {
+            margin-top: 0px;
+            width: 18px;
+            height: 18px;
+        }
+    
+        /* email-img */
+        #email-img {
+            margin-top: 0px;
+            width: 20px;
+            height: 17px;
+        }
+
+        /*///////////////////    top bar end    ///////////////////*/
+
+
+        /*////////////////////    home   /////////////////////*/
+
+        .home-btn1 {
+            display:block;
+            margin-bottom: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .home-btn2 {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .home-content h1 {
+            font-size: xx-large !important;
+        }
+        .home-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-content p {
+            text-align: center;
+
+        }
+        .home-content h1 {
+            text-align: center ;
+
+        }
+
+        /*////////////////////  home end  /////////////////////*/
+
+
+
+
+
+        /*////////////////////  about   /////////////////////*/
+
+                .about {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 200px !important;
+                    flex-direction: column !important  ;
+                }
+                .img-div {
+                    width: 100% !important;
+                    height: 40% !important;
+                }
+                .about-card {
+                    margin-left: 0px !important;
+                    position: relative;
+                    margin-top: 0 !important;
+                    height: 20rem !important;
+                    padding: 0px 0;
+                    width: 100% !important;
+                }
+                .about-card p {
+                font-size: medium;
+                }
+                .about-card h5 {
+                font-size: x-large;
+                }
+                .about-card-btn {
+                height: 2.5rem !important;
+                width: 9rem !important;
+                }
+
+        /*////////////////////  about end  /////////////////////*/
+
+
+}
