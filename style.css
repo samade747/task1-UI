@@ -87,7 +87,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(./images/hero-bg.jpg);
+    background-image: url(./);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -96,6 +96,7 @@ p , h1 , h2 , h3 , h4 , h5 , h6 {
 }
 
 .home-inner {
+    background-image: url();
     width: 90%;
     height: 90%;
     display: flex;
